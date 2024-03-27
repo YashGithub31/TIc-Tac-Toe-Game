@@ -45,10 +45,6 @@ boxes.forEach((box)=> {
     })
 });
 
-if(boxex.innerText== "O"){
-    box.style.color = "green";
-}
-
 const disabledBoxes = () => {
     for(let box of boxes){
         box.disabled= true;
